@@ -1,0 +1,116 @@
+import { StyleSheet } from 'react-native';
+import { scale, verticalScale, moderateScale } from 'react-native-size-matters';
+import { COLORS } from '../../constants/Colors';
+import { Fonts } from '../../constants/Fonts';
+
+export const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: COLORS.white,
+    },
+    scrollView: {
+        flex: 1,
+    },
+    scrollViewContent: {
+        alignItems: 'center',
+        paddingTop: verticalScale(20),
+        paddingBottom: verticalScale(40),
+        paddingHorizontal: scale(20),
+    },
+    profileImageContainer: {
+        width: scale(92),
+        height: scale(92),
+        backgroundColor: '#EAEAEA',
+        borderRadius: moderateScale(20),
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderWidth: 1,
+        borderColor: '#E2E8F0',
+        position: 'relative',
+        marginBottom: verticalScale(14),
+    },
+    avatarPlaceholder: {
+        width: '100%',
+        height: '100%',
+        borderRadius: moderateScale(20),
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: '#EAEAEA',
+    },
+    editIconBadge: {
+        position: 'absolute',
+        bottom: -scale(4),
+        right: -scale(4),
+        width: scale(24),
+        height: scale(24),
+        borderRadius: moderateScale(7),
+        backgroundColor: '#111827',
+        borderWidth: 2,
+        borderColor: '#FFFFFF',
+        justifyContent: 'center',
+        alignItems: 'center',
+        elevation: 3,
+        shadowColor: COLORS.black,
+        shadowOffset: { width: 0, height: 1 },
+        shadowOpacity: 0.15,
+        shadowRadius: 3,
+    },
+    nameText: {
+        fontSize: moderateScale(20),
+        fontFamily: Fonts.Satoshi.bold,
+        color: '#111827',
+        marginBottom: verticalScale(3),
+        textAlign: 'center',
+    },
+    emailText: {
+        fontSize: moderateScale(13),
+        fontFamily: Fonts.Inter.regular,
+        color: '#6B7280',
+        marginBottom: verticalScale(24),
+        textAlign: 'center',
+    },
+    menuContainer: {
+        width: '100%',
+        backgroundColor: COLORS.white,
+        borderRadius: moderateScale(16),
+        borderWidth: 1,
+        borderColor: '#F3F4F6',
+        elevation: 2,
+        shadowColor: COLORS.black,
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.04,
+        shadowRadius: 8,
+        overflow: 'hidden',
+    },
+    menuItem: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+        paddingVertical: verticalScale(14),
+        paddingHorizontal: scale(16),
+        borderBottomWidth: 1,
+        borderBottomColor: '#F3F4F6',
+    },
+    menuItemNoBorder: {
+        borderBottomWidth: 0,
+    },
+    menuItemLeft: {
+        flexDirection: 'row',
+        alignItems: 'center',
+    },
+    menuIconWrapper: {
+        width: scale(24),
+        alignItems: 'center',
+        justifyContent: 'center',
+        marginRight: scale(14),
+    },
+    menuItemText: {
+        fontSize: moderateScale(14),
+        fontFamily: Fonts.Inter.medium,
+        color: '#111827',
+    },
+    menuItemTextLogout: {
+        color: '#DC2626',
+        fontFamily: Fonts.Inter.medium,
+    },
+});

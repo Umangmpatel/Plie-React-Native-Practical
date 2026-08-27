@@ -1,0 +1,41 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/HankenGrotesk-Bold.otf",
+      "sha1": "b9d16b2d66403cf9e25df4cf67c53bbe9d319db1"
+    },
+    {
+      "path": "src/assets/fonts/HankenGrotesk-Medium.otf",
+      "sha1": "e337a5555014143b76a0f29af6c941d76ebc7dc8"
+    },
+    {
+      "path": "src/assets/fonts/HankenGrotesk-Regular.otf",
+      "sha1": "8ff212d82176a384a3af7fd647e373074aba00f3"
+    },
+    {
+      "path": "src/assets/fonts/HankenGrotesk-SemiBold.otf",
+      "sha1": "7f4bd68ed9e0d534bff1ad25c3bd4c5ea09e7614"
+    },
+    {
+      "path": "src/assets/fonts/Inter-Medium.otf",
+      "sha1": "699375c590a1879bde1b53a7949b2659292ee3b0"
+    },
+    {
+      "path": "src/assets/fonts/Inter-Regular.otf",
+      "sha1": "efd846697930d88ab013b64d4e0f2129cd7e971f"
+    },
+    {
+      "path": "src/assets/fonts/Inter-SemiBold.otf",
+      "sha1": "ff17bae635a4bffbaa773aa18ef3cfd8d6f41a17"
+    },
+    {
+      "path": "src/assets/fonts/Satoshi-Bold.otf",
+      "sha1": "57a9e1c24984708865f7d0c31a03773912fb975f"
+    },
+    {
+      "path": "src/assets/fonts/Satoshi-Medium.otf",
+      "sha1": "704faccb5fff19f25c0b914d42d135ab75794a24"
+    }
+  ]
+}
